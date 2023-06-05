@@ -56,7 +56,6 @@ public class Card {
         if (pName == 12) {
             name = "King";
         }
-        System.out.println("You made the " + name + " of " + suit);
     }
     public void print() {
         System.out.println("This card is the " + name + " of " + suit);
